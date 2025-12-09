@@ -400,6 +400,27 @@ font-family:  'Bebas Neue', sans-serif;
     .trending-tags {
         grid-template-columns: repeat(6, 1fr);
     }
+    @media (max-width: 600px) {
+    .movies, .movies1 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding-left: 0;
+        justify-items: center;
+    }
+
+    .container2 img,
+    .movies1 img {
+        width: 150px;
+        height: 220px;
+    }
+
+    .rating {
+        width: 150px;
+        font-size: 12px;
+    }
+}
+
 }
 @media (min-width: 1024px) {
 
