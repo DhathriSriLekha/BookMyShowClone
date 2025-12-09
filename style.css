@@ -105,6 +105,7 @@ font-family:  'Bebas Neue', sans-serif;
 .events img{
     width: 200px;
     height: 200px;
+    margin-right: 30px;
 }
 .container3{
     margin-top: 0;
@@ -297,83 +298,17 @@ font-family:  'Bebas Neue', sans-serif;
             line-height: 1.6;
         }
 
-   /* ---------------- MOBILE (0 - 600px) ------------------ */
-@media (max-width: 600px) {
-
-    .bar {
-        flex-direction: column;
-        text-align: center;
-        padding: 0;
-    }
-
-    .searchbar {
-        width: 90%;
-        margin: 10px 0;
-    }
-
-    .location {
-        width: 90%;
-        margin: 10px 0;
-    }
-
-    .button {
-        width: 80%;
-        margin: 10px 0;
-    }
-
-    .category a {
-        font-size: 12px;
-        margin: 5px;
-    }
-
-    .photo {
-        width: 100%;
-        height: auto;
-        border-radius: 20px;
-    }
-
-    /* 2 IMAGES ON MOBILE */
-    .movies,
-    .movies1 {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        gap: 15px;
-        padding-left: 0;
-        justify-items: center;
-    }
-
-    .container2 img,
-    .movies1 img {
-        width: 150px;
-        height: 220px;
-    }
-
-    .rating {
-        width: 150px;
-        font-size: 12px;
-    }
-
-    .trending-tags {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
-    .footer-services {
-        flex-direction: column;
-        gap: 15px;
-    }
-}
 
 
-
-/* ---------------- LAPTOP & DESKTOP (600px+) ------------------ */
 @media (min-width: 600px) {
 
-    /* 5 IMAGES ON LAPTOP */
+    
     .movies {
         display: grid;
         grid-template-columns: repeat(5, 1fr);
         gap: 25px;
     }
+  
 
     .movies1 {
         display: grid;
@@ -391,3 +326,4 @@ font-family:  'Bebas Neue', sans-serif;
         border-radius: 20px;
     }
 }
+
